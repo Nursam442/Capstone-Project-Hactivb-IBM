@@ -20,13 +20,13 @@ Penelitian ini akan mengimplementasikan SMOTE (Synthetic Minority Over-sampling 
 - Dataset awal sangat imbalance, jumlah transaksi fraud jauh lebih sedikit dibanding non-fraud.  
 - Transaksi fraud cenderung terjadi pada jumlah transfer yang besar.  
 - Setelah balancing dengan **SMOTE**, distribusi kelas menjadi seimbang.
-  <img width="286" height="204" alt="image" src="https://github.com/user-attachments/assets/79f9532d-66aa-4ed9-aa09-62edc9f1c4bc" />
-  
-
+![alt text](https://github.com/Nursam442/Capstone-Project-Hactivb-IBM/blob/main/sebelum%20smote.png?raw=true)
+![alt text](https://github.com/Nursam442/Capstone-Project-Hactivb-IBM/blob/main/setelah%20smote.png?raw=true)
 - Model **Random Forest** mencapai hasil evaluasi:  
   - Accuracy: ~92%
-      
-  - ROC-AUC: ~0.95  
-- Feature paling berpengaruh: `Amount`, `OldBalanceOrg`, dan `NewBalanceDest`.  
-- Insight bisnis: transaksi dengan nominal besar dan perubahan saldo drastis sebaiknya diprioritaskan dalam monitoring fraud.
+![alt text](https://github.com/Nursam442/Capstone-Project-Hactivb-IBM/blob/main/confusion%20matrix.png?raw=true)
+  - ROC-AUC: ~0.95
+![alt text](https://github.com/Nursam442/Capstone-Project-Hactivb-IBM/blob/main/ROC.png?raw=true)
+- Feature paling berpengaruh: `Amount`, `OldBalanceOrg`, dan `NewBalanceDest`.
+![alt text](https://github.com/Nursam442/Capstone-Project-Hactivb-IBM/blob/main/FI.png?raw=true)
 
