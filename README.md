@@ -23,10 +23,20 @@ Penelitian ini akan mengimplementasikan SMOTE (Synthetic Minority Over-sampling 
 ![alt text](https://github.com/Nursam442/Capstone-Project-Hactivb-IBM/blob/main/sebelum%20smote.png?raw=true)
 ![alt text](https://github.com/Nursam442/Capstone-Project-Hactivb-IBM/blob/main/setelah%20smote.png?raw=true)
 - Model **Random Forest** mencapai hasil evaluasi:  
-  - Accuracy: ~92%
+  - Accuracy: ~88%
 ![alt text](https://github.com/Nursam442/Capstone-Project-Hactivb-IBM/blob/main/confusion%20matrix.png?raw=true)
-  - ROC-AUC: ~0.95
+  - ROC-AUC: ~0.91
 ![alt text](https://github.com/Nursam442/Capstone-Project-Hactivb-IBM/blob/main/ROC.png?raw=true)
-- Feature paling berpengaruh: `Amount`, `OldBalanceOrg`, dan `NewBalanceDest`.
+- Feature paling berpengaruh: `duration`, `housing`, dan `contact`.
 ![alt text](https://github.com/Nursam442/Capstone-Project-Hactivb-IBM/blob/main/FI.png?raw=true)
+
+## 🤖 AI support explanation
+Dalam penelitian ini, AI digunakan pada beberapa tahap:
+  1. Random Forest sebagai algoritma klasifikasi berbasis machine learning.
+  2. SMOTE untuk menyeimbangkan distribusi kelas target.
+  3. Visualization tools (matplotlib & seaborn) untuk membantu memahami pola data.
+  4. LLM (ChatGPT) digunakan untuk:
+    -. Merancang alur penelitian.
+    -. Menjelaskan hasil model dan interpretasi variabel.
+    -. Membantu menyusun insight, rekomendasi, dan perapihan laporan agar lebih sistematis.
 
